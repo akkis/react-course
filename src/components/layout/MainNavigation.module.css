@@ -24,6 +24,7 @@
 
 .header li {
   margin-left: 3rem;
+  position: relative;
 }
 
 .header a {
@@ -41,7 +42,15 @@
 .badge {
   background-color: #cc2062;
   color: white;
-  border-radius: 12px;
-  padding: 0 1rem;
-  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  top: 0;
+  transform: translate(50%, -50%);
+  border-radius: 100px;
 }
